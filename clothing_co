@@ -1,0 +1,33 @@
+/**Clothing_Co
+Shirts (15.00)
+Pants (25.00)
+Jeans (25.00)
+Shorts (15.00)
+Skirts (10.00)
+Dresses (15.00)
+Hats (5.00)
+Purses (10.00)
+Sandals (10.00)
+Sunglasses (5.00)
+Swim_suits (10.00)
+Boots (15.00)
+Wallets (5.00)
+Jackets (25.00)
+Belts (5.00)**/
+
+CREATE TABLE Clothing_Co (id INTEGER PRIMARY KEY, item TEXT, color TEXT, size TEXT, price INTEGER);
+INSERT INTO Clothing_Co VALUES (1, "Shirts", "white", "m", 15.00);
+INSERT INTO Clothing_Co VALUES (2, "Pants", "khaki", "s", 25.00);
+INSERT INTO Clothing_Co VALUES (3, "Jeans", "blue", "m", 25.00);
+INSERT INTO Clothing_Co VALUES (4, "Shorts", "grey", "s", 15.00);
+INSERT INTO Clothing_Co VALUES (5, "Skirts", "blue", "s", 10.00);
+INSERT INTO Clothing_Co VALUES (6, "Dresses", "floral", "l", 15.00);
+INSERT INTO Clothing_Co VALUES (7, "Hats", "multi", "one_size", 5.00);
+INSERT INTO Clothing_Co VALUES (8, "Purses", "brown", "one_size", 10.00);
+INSERT INTO Clothing_Co VALUES (9, "Sandals", "white", "8", 10.00);
+INSERT INTO Clothing_Co VALUES (10, "Sunglasses", "black", "one_size", 5.00);
+INSERT INTO Clothing_Co VALUES (11, "Swim_suits", "green", "s", 10.00);
+INSERT INTO Clothing_Co VALUES (12, "Boots", "black", "7", 15.00);
+INSERT INTO Clothing_Co VALUES (13, "Wallets", "black", "one_size", 5.00);
+INSERT INTO Clothing_Co VALUES (14, "Jackets", "black", "l", 25.00);
+INSERT INTO Clothing_Co VALUES (15, "Belts", "brown", "one_size", 5.00);
